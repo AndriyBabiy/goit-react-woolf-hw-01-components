@@ -11,11 +11,18 @@ export const UserItem = styled.li`
   border-radius: 4px;
 `;
 
-export const StatusIndicator = styled.span`
+export const StatusIndicatorOnline = styled.span`
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: ${props => (props.online ? 'green' : 'red')};
+  background-color: green;
+`;
+
+export const StatusIndicatorOffline = styled.span`
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: red;
 `;
 
 export const UserProfile = styled.div`

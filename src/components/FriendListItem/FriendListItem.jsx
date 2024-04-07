@@ -1,5 +1,6 @@
 import {
-  StatusIndicator,
+  StatusIndicatorOffline,
+  StatusIndicatorOnline,
   UserImage,
   UserItem,
   UserName,
@@ -7,7 +8,7 @@ import {
 
 export const FriendListItem = ({ avatar, name, isOnline }) => (
   <UserItem>
-    <StatusIndicator online={isOnline} />
+    {isOnline ? <StatusIndicatorOnline /> : <StatusIndicatorOffline />}
     <UserImage src={avatar} alt="User avatar" width="48" />
     <UserName>{name}</UserName>
   </UserItem>

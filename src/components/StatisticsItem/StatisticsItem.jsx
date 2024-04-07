@@ -3,8 +3,8 @@ import { Stat } from './StatisticsItem.styled';
 export const StatisticsItem = ({ label, percentage }) => {
   return (
     <Stat>
-      <span class="label">{label}</span>
-      <span class="percentage">{`${percentage}%`}</span>
+      <span className="label">{label}</span>
+      <span className="percentage">{`${percentage}%`}</span>
     </Stat>
   );
 };

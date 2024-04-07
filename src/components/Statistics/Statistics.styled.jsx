@@ -10,7 +10,6 @@ export const StatsContainer = styled.div`
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding-top: 10px;
   text-align: center;
   margin: auto;
   overflow: hidden;
@@ -19,7 +18,8 @@ export const StatsContainer = styled.div`
 export const StatsHeader = styled.h2`
   color: #333;
   font-size: 18px;
-  margin: 0 0 10px 0;
+  padding: 10px;
+  margin: 0;
 `;
 
 export const StatsBar = styled.div`

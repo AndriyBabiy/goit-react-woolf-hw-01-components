@@ -11,7 +11,7 @@ export const App = () => {
     <Container>
       <TitleArea>React homework 1</TitleArea>
       <Profile {...profile} />
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics title={''} stats={data} />
       <FriendList friends={friends} />
       <Transactions transactions={transactions} />
     </Container>
